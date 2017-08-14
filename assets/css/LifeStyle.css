@@ -1,0 +1,14 @@
+/******************************************* Inde.html*********************************/
+.navigation{position: fixed;z-index: 1000}
+.tab-content2{background:#e0e0e0 ;color: white;height: 1020px;position: relative;left: 220px;top:50px}
+.col-md-offset-1{margin-left: 1.333333%; !important; }
+.tab-content1{background:#f8bbd0  ;color: white;height: 1020px;
+    overflow: scroll;position: fixed; z-index: 1000;top:50px}
+.tab-content3{
+    background-color:white ;color: black;height: 1020px;position: fixed;left: 1025px;overflow: scroll;top:50px; }
+
+/******************************************* header.css*********************************/
+.nav-side-menu{
+    background:linear-gradient(to right,#);
+    
+}

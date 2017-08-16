@@ -11,14 +11,14 @@ var Users=require('../controllers/users');
 var ReciverTakeup=require('../controllers/recivertakeup');
 var HelperRequests=require('../controllers/helperrequest');
 
-function ControlInterceptor(objectioncollection){
-    new EventControllers(objectioncollection);
-    new IncubationControllers(objectioncollection);
-    new Opportunities(objectioncollection);
-    new Stories(objectioncollection);
-    new Testimonials(objectioncollection);
-    new Users(objectioncollection);
-    new ReciverTakeup(objectioncollection);
-    new HelperRequests(objectioncollection);
+function ControlInterceptor(objectcollection){
+    new EventControllers(objectcollection);
+    new IncubationControllers(objectcollection);
+    new Opportunities(objectcollection);
+    new Stories(objectcollection);
+    new Testimonials(objectcollection);
+    new Users(objectcollection);
+    new ReciverTakeup(objectcollection);
+    new HelperRequests(objectcollection);
 }
 module.exports=ControlInterceptor;

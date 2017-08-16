@@ -5,5 +5,6 @@ config={};
 config.masterIp='localhost';
 config.dbuser='admin';
 config.dbpassword='admin123!';
-config.dbname='lifestyle';
+config.dbname='organization';
 config.serviceport=3005;
+config.apversion='0.1';
